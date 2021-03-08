@@ -1,13 +1,14 @@
 public class AccountCalculation {
     public static void main(String[] args) {
-        calculateInterest(1000, (float) 1.015,4);
+  //      calculateInterest(1000, (float)1.5,10);
     }
-    public static void calculateInterest(int startCapital,float interest, int jahrNummer) {
-        int Capital = startCapital;
+    public static void calculateInterest(float startCapital,float interest, int jahrNummer) {
+        float Capital = startCapital;
         for(int i=1;i<=jahrNummer;i++) {
-            Capital = (int) (Capital*interest);
-
+     //       Capital = (Capital +interest/100.0);
+            String niceValueStart = String.format("%.2f",Capital);
             System.out.println("End of Jahr"+i+"capital ist "+startCapital+". Am ende Jahr ist: " +Capital );
+
             startCapital=Capital;
         }
     }

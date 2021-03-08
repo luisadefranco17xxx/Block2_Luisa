@@ -55,6 +55,7 @@ public class NummerFactorsDemoAppo {
             }
             i++;
         }
+        System.out.println("ich bin in primNummerFind");
         return true;
     }
    /* public static int findPrimNummer(int value ){
