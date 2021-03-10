@@ -72,7 +72,7 @@ public class ExamplesWithArray {
                 }
             }
          }
-        //System.out.println(intArrayTmp.toString());  // ich kann nicht in intArrayTemp etwas kopieren
+        //System.out.println("sto stampando qui"+ intArrayTmp.toString());  // ich kann nicht in intArrayTemp etwas kopieren
         return intArrayTmp;
     }
 
